@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.inputted {
+    width: 600px;
+    padding-top: 200px;
+}
+
+
+
+.outputted {
+    white-space: break-spaces;
+    width: 600px;
+}

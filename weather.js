@@ -27,9 +27,8 @@ outputted = document.querySelector('.outputted');
         }
         })
         .then (resp => resp.json())
-        .then (JSON.stringify)
         .then (function(data){
-            outputted.innerHTML = data ;
+            outputted.innerHTML = JSON.stringify( data, null, '\t') ;
         })
         .catch (function(error) {
             outputted.innerHTML = error;
